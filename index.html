@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sekolah Python - Master Python Programming</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-icon">🐍</span>
+                <span class="logo-text">Sekolah Python</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#syllabus" class="nav-link">Syllabus</a></li>
+                <li><a href="#courses" class="nav-link">Courses</a></li>
+                <li><a href="#testimonials" class="nav-link">Reviews</a></li>
+                <li><a href="#social" class="nav-link">Social</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <span class="hero-logo-icon">🐍</span>
+                </div>
+                <h1 class="hero-title">Master Python Programming</h1>
+                <p class="hero-subtitle">Transform Your Career with Indonesia's #1 Python Academy</p>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <span class="stat-number">17,000+</span>
+                        <span class="stat-label">Students</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">#1</span>
+                        <span class="stat-label">TikTok Rank</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number">4.9★</span>
+                        <span class="stat-label">Rating</span>
+                    </div>
+                </div>
+                <button class="cta-button" onclick="scrollToSection('courses')">Start Learning Now</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Why Choose Sekolah Python?</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <div class="card-icon">💻</div>
+                    <h3>Practical Learning</h3>
+                    <p>Learn Python through real-world projects and hands-on coding exercises that prepare you for the industry.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🎯</div>
+                    <h3>Expert Guidance</h3>
+                    <p>Get personalized mentorship from industry professionals with years of Python development experience.</p>
+                </div>
+                <div class="about-card">
+                    <div class="card-icon">🚀</div>
+                    <h3>Career Ready</h3>
+                    <p>Our comprehensive curriculum is designed to make you job-ready in the shortest time possible.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Syllabus Section -->
+    <section id="syllabus" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">Python Programming Syllabus</h2>
+            <div class="syllabus-container">
+                <div class="syllabus-column">
+                    <h3>Fundamentals</h3>
+                    <ul class="syllabus-list">
+                        <li>Python Syntax & Variables</li>
+                        <li>Data Types & Structures</li>
+                        <li>Control Flow & Loops</li>
+                        <li>Functions & Modules</li>
+                        <li>Error Handling</li>
+                    </ul>
+                </div>
+                <div class="syllabus-column">
+                    <h3>Intermediate</h3>
+                    <ul class="syllabus-list">
+                        <li>Object-Oriented Programming</li>
+                        <li>File Handling & I/O</li>
+                        <li>Regular Expressions</li>
+                        <li>Database Integration</li>
+                        <li>API Development</li>
+                    </ul>
+                </div>
+                <div class="syllabus-column">
+                    <h3>Advanced</h3>
+                    <ul class="syllabus-list">
+                        <li>Web Frameworks (Django/Flask)</li>
+                        <li>Data Science Libraries</li>
+                        <li>Machine Learning Basics</li>
+                        <li>Deployment & DevOps</li>
+                        <li>Project Portfolio</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Courses Section -->
+    <section id="courses" class="section">
+        <div class="container">
+            <h2 class="section-title">Enroll in Our Course</h2>
+            <div class="course-container">
+                <div class="course-card">
+                    <div class="course-header">
+                        <h3>Python Mastery Program</h3>
+                        <div class="course-price">
+                            <span class="price-currency">Rp</span>
+                            <span class="price-amount">2,999,000</span>
+                        </div>
+                    </div>
+                    <div class="course-features">
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>6 Months Intensive Training</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>1-on-1 Mentoring Sessions</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Real-World Projects</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Job Placement Assistance</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check"></i>
+                            <span>Lifetime Access to Materials</span>
+                        </div>
+                    </div>
+                    <form class="enrollment-form">
+                        <input type="text" placeholder="Full Name" required>
+                        <input type="email" placeholder="Email Address" required>
+                        <input type="tel" placeholder="Phone Number" required>
+                        <select required>
+                            <option value="">Select Your Experience Level</option>
+                            <option value="beginner">Complete Beginner</option>
+                            <option value="some">Some Programming Knowledge</option>
+                            <option value="intermediate">Intermediate</option>
+                        </select>
+                        <button type="submit" class="checkout-button">
+                            <i class="fas fa-shopping-cart"></i>
+                            Enroll Now - Secure Checkout
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Credibility Section -->
+    <section class="credibility-section">
+        <div class="container">
+            <div class="credibility-grid">
+                <div class="credibility-item">
+                    <div class="credibility-number">17,000+</div>
+                    <div class="credibility-label">Trusted Learners</div>
+                </div>
+                <div class="credibility-item">
+                    <div class="credibility-number">#1</div>
+                    <div class="credibility-label">TikTok Search Rank<br>"Python Programming"</div>
+                </div>
+                <div class="credibility-item">
+                    <div class="credibility-number">4.9/5</div>
+                    <div class="credibility-label">Average Rating</div>
+                </div>
+                <div class="credibility-item">
+                    <div class="credibility-number">95%</div>
+                    <div class="credibility-label">Job Placement Rate</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="section alt-bg">
+        <div class="container">
+            <h2 class="section-title">What Our Students Say</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span class="rating-number">5.0</span>
+                    </div>
+                    <p class="testimonial-text">"Sekolah Python completely transformed my career! The practical approach and mentorship helped me land my dream job as a Python developer. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨‍💻</div>
+                        <div class="author-info">
+                            <h4>Ahmad Rizki</h4>
+                            <span>Software Developer at Tokopedia</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span class="rating-number">5.0</span>
+                    </div>
+                    <p class="testimonial-text">"The curriculum is outstanding and the instructors are very knowledgeable. I went from zero programming knowledge to building web applications in just 4 months!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👩‍💻</div>
+                        <div class="author-info">
+                            <h4>Sari Indah</h4>
+                            <span>Data Analyst at Gojek</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span class="rating-number">4.9</span>
+                    </div>
+                    <p class="testimonial-text">"Best investment I've ever made! The hands-on projects and real-world applications made learning Python enjoyable and effective. Thank you, Sekolah Python!"</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">👨‍🎓</div>
+                        <div class="author-info">
+                            <h4>Budi Santoso</h4>
+                            <span>Machine Learning Engineer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Media Section -->
+    <section id="social" class="section">
+        <div class="container">
+            <h2 class="section-title">Follow Us on TikTok</h2>
+            <div class="social-container">
+                <div class="tiktok-card">
+                    <div class="tiktok-header">
+                        <div class="tiktok-logo">
+                            <i class="fab fa-tiktok"></i>
+                        </div>
+                        <div class="tiktok-info">
+                            <h3>@mayer.py</h3>
+                            <p>Daily Python tips and tutorials</p>
+                            <div class="tiktok-stats">
+                                <span><strong>500K+</strong> Followers</span>
+                                <span><strong>10M+</strong> Likes</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tiktok-content">
+                        <p>🎯 #1 Python Programming content on TikTok Indonesia</p>
+                        <p>💡 Free daily coding tips and tricks</p>
+                        <p>🚀 Behind-the-scenes of our Python courses</p>
+                        <p>👥 Join our amazing community of Python learners</p>
+                    </div>
+                    <button class="tiktok-button" onclick="window.open('https://tiktok.com/@mayer.py', '_blank')">
+                        <i class="fab fa-tiktok"></i>
+                        Follow @mayer.py
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <span class="logo-icon">🐍</span>
+                    <span class="logo-text">Sekolah Python</span>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#courses">Courses</a>
+                    <a href="#testimonials">Reviews</a>
+                    <a href="#social">Social</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Sekolah Python Ltd 2025 | by MayerAS</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
